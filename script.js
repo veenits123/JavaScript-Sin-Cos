@@ -23,6 +23,7 @@ context.clearRect(0,0,canvas.width,canvas.height);
 if(t>33){
     t=0;
 }
+    //request
 requestAnimationFrame(animate)|| webkitRequestAnimationFrame(animate)|| mozRequestAnimationFrame(animate) || oRequestAnimationFrame (animate)|| msRequestAnimationFrame(animate);
 }
 requestAnimationFrame(animate)|| webkitRequestAnimationFrame(animate)|| mozRequestAnimationFrame(animate) || oRequestAnimationFrame (animate)|| msRequestAnimationFrame(animate);
